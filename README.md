@@ -1,6 +1,8 @@
 # BrAIn-Dead - Archived/Abandoned Project
 This is the README.md of an app I created for computer science, I have decided to abandon this project because of the short-sighted, short-term and thereby uninformed solutions/decision I have made, which certainly will pave the path I walk just a little bit further; but at what point will those exact foundations break down and make this project so bad, unstable and unusable that a complete redesign would be required to even make the _idea_ decent.
 
+#### This is just an explanation on why this whole project is so shit. The entire reason I posted this on here even though it's an abandoned project is because I want other people to learn from my mistakes, I hope I formulated all the mistakes I made well enough to make that possible.
+
 ### Reasons for abandoning it
 
 * Tried C++ instead of C#<br>
