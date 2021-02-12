@@ -1,0 +1,188 @@
+﻿<Page
+    x:Class="BrAIn_Client_3.Quick_Design"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:BrAIn_Client_3"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="#ff232e3f"
+    Height="1080"
+    Width="1920" 
+    FontFamily="Inter V">
+    <Frame x:Name="fullCanvas">
+        <Frame.RenderTransform>
+            <ScaleTransform x:Name="autoscale"/>
+        </Frame.RenderTransform>
+
+        <Canvas>
+
+            <!-- Layer 1/<Rectangle> -->
+            <Path Fill="#ff232e3f" Data="F1 M 1920.000,1080.000 L 0.000,1080.000 L 0.000,0.000 L 1920.000,0.000 L 1920.000,1080.000 Z"/>
+            <Button x:Name="MainPage" Click="tabButton_Click" Foreground="White" FontFamily="Inter V" FontSize="21" Canvas.Left="91" Canvas.Top="268" FontWeight="Medium" Background="#FF232E3F">Home</Button>
+            <Button x:Name="Projects" Click="tabButton_Click" Foreground="White" FontFamily="Inter V" FontSize="21" Canvas.Left="91" Canvas.Top="331" FontWeight="Medium" Background="#FF232E3F">Projects</Button>
+            <Button x:Name="h" Click="tabButton_Click" Foreground="White" FontFamily="Inter V" FontSize="21" Canvas.Left="91" Canvas.Top="391" FontWeight="Medium" Background="#FF232E3F">Quick Design</Button>
+            <Button x:Name="Notes" Click="tabButton_Click" Foreground="White" FontFamily="Inter V" FontSize="21" Canvas.Left="91" Canvas.Top="456" FontWeight="Medium" Background="#FF232E3F">Notes</Button>
+            <Button x:Name="ToDo" Click="tabButton_Click" Foreground="White" FontFamily="Inter V" FontSize="21" Canvas.Left="91" Canvas.Top="521" FontWeight="Medium" Background="#FF232E3F">ToDo</Button>
+            <Button x:Name="tabButton5" Click="tabButton5_Click" Foreground="White" FontFamily="Inter V" FontSize="21" Canvas.Left="70" Canvas.Top="1000" FontWeight="Medium" Background="#FF232E3F">L.A. Productions</Button>
+
+            <!-- Layer 1/<Rectangle> -->
+
+            <Path StrokeThickness="1.0" Stroke="#ff000000" StrokeMiterLimit="1.0" Fill="#ffff" Data="F1 M 1887.043,1065.064 L 325.623,1065.064 C 319.023,1065.064 313.623,1059.664 313.623,1053.064 L 313.623,31.616 C 313.623,25.016 319.023,19.616 325.623,19.616 L 1887.043,19.616 C 1893.643,19.616 1899.043,25.016 1899.043,31.616 L 1899.043,1053.064 C 1899.043,1059.664 1893.643,1065.064 1887.043,1065.064 Z"/>
+            <TextBlock x:Name="AppName" FontFamily="Product Sans" FontWeight="Bold" FontSize="43" Canvas.Left="750" Canvas.Top="106" FocusVisualPrimaryBrush="#FFBC8034" Foreground="#FFBC8034">BrAIn Client</TextBlock>
+            <TextBlock FontFamily="Product Sans" FontWeight="Bold" FontSize="43" Canvas.Left="1000" Canvas.Top="106" Foreground="Black">- Quick Design</TextBlock>
+            <!-- Layer 1/L.A. productions
+(credits) -->
+
+            <!-- Layer 1/<Line> -->
+            <Path StrokeThickness="3.0" Stroke="#ffbb7f33" StrokeMiterLimit="1.0" Data="F1 M 27.467,231.612 L 270.204,230.112"/>
+
+            <!-- Layer 1/Home
+
+Projects
+
+Quick design
+
+Notes
+
+To Do -->
+
+            <Canvas>
+
+                <!-- Layer 1/<Group>/<Path> -->
+                <Path StrokeThickness="2.0" Stroke="#ffbb7f33" StrokeMiterLimit="1.0" Data="F1 M 40.010,277.535 C 66.942,277.680 66.942,277.680 66.942,277.680 L 66.942,301.221 L 40.010,301.221 L 40.010,277.535 Z"/>
+
+                <!-- Layer 1/<Group>/<Path> -->
+                <Path StrokeThickness="2.0" Stroke="#ffbb7f33" StrokeMiterLimit="1.0" Data="F1 M 66.942,301.221 L 40.010,277.535 L 53.476,262.271 L 66.942,277.680"/>
+
+            </Canvas>
+
+            <!-- Layer 1/<Line> -->
+            <Path StrokeThickness="5.0" Stroke="#ffbb7f33" StrokeMiterLimit="1.0" Data="F1 M 2.625,256.379 L 2.625,310.377"/>
+
+            <Canvas>
+
+                <!-- Layer 1/<Group>/<Rectangle> -->
+                <Path StrokeThickness="3.0" Stroke="#ffbb7f33" StrokeMiterLimit="1.0" Data="F1 M 52.683,349.219 L 40.009,349.219 L 40.009,337.213 L 52.683,337.213 L 52.683,349.219 Z"/>
+
+                <!-- Layer 1/<Group>/<Rectangle> -->
+                <Path StrokeThickness="3.0" Stroke="#ffbb7f33" StrokeMiterLimit="1.0" Data="F1 M 66.942,349.219 L 54.269,349.219 L 54.269,337.213 L 66.942,337.213 L 66.942,349.219 Z"/>
+
+                <!-- Layer 1/<Group>/<Rectangle> -->
+                <Path StrokeThickness="3.0" Stroke="#ffbb7f33" StrokeMiterLimit="1.0" Data="F1 M 52.683,362.746 L 40.009,362.746 L 40.009,350.739 L 52.683,350.739 L 52.683,362.746 Z"/>
+
+                <!-- Layer 1/<Group>/<Rectangle> -->
+                <Path StrokeThickness="3.0" Stroke="#ffbb7f33" StrokeMiterLimit="1.0" Data="F1 M 66.942,362.746 L 54.269,362.746 L 54.269,350.739 L 66.942,350.739 L 66.942,362.746 Z"/>
+
+            </Canvas>
+
+            <Canvas>
+
+                <!-- Layer 1/<Group>/<Rectangle> -->
+                <Path StrokeThickness="1.0" Stroke="#ffbb7f33" StrokeMiterLimit="1.0" Fill="#ffbb7f33" Data="F1 M 68.385,407.194 L 42.073,424.976 L 37.988,418.932 L 64.300,401.150 L 68.385,407.194 Z"/>
+
+                <!-- Layer 1/<Group>/<Polygon> -->
+                <Path StrokeThickness="1.0" Stroke="#ffbb7f33" StrokeMiterLimit="1.0" Data="F1 M 33.591,426.437 L 40.776,425.786 L 36.875,420.013 L 33.591,426.437 Z"/>
+
+                <!-- Layer 1/<Group>/<Rectangle> -->
+                <Path Fill="#ffbb7f33" Data="F1 M 75.003,402.622 L 72.049,404.619 L 68.056,398.710 L 71.010,396.714 L 75.003,402.622 Z"/>
+
+            </Canvas>
+
+            <Canvas>
+
+                <!-- Layer 1/<Group>/<Rectangle> -->
+                <Path Fill="#ffbb7f33" Data="F1 M 60.992,489.289 L 45.960,489.289 C 42.806,489.289 40.226,486.709 40.226,483.556 L 40.226,465.466 C 40.226,462.313 42.806,459.733 45.960,459.733 L 60.992,459.733 C 64.146,459.733 66.726,462.313 66.726,465.466 L 66.726,483.556 C 66.726,486.709 64.146,489.289 60.992,489.289 Z"/>
+
+                <!-- Layer 1/<Group>/<Path> -->
+                <Path Fill="#ffbb7f33" Data="F1 M 40.226,467.227 L 40.226,464.557 C 40.226,461.892 42.386,459.733 45.050,459.733 L 61.902,459.733 C 64.566,459.733 66.726,461.892 66.726,464.557 L 66.726,467.227"/>
+
+                <!-- Layer 1/<Group>/<Line> -->
+                <Path StrokeThickness="1.0" Stroke="#ff000000" StrokeMiterLimit="1.0" Data="F1 M 42.054,471.613 L 64.898,471.613"/>
+
+                <!-- Layer 1/<Group>/<Line> -->
+                <Path StrokeThickness="1.0" Stroke="#ff000000" StrokeMiterLimit="1.0" Data="F1 M 42.054,477.422 L 64.898,477.422"/>
+
+                <!-- Layer 1/<Group>/<Line> -->
+                <Path StrokeThickness="1.0" Stroke="#ff000000" StrokeMiterLimit="1.0" Data="F1 M 42.054,483.231 L 64.898,483.231"/>
+
+                <!-- Layer 1/<Group>/<Path> -->
+                <Path StrokeThickness="1.0" Stroke="#fffaaf3a" StrokeMiterLimit="1.0" Fill="#ffbb7f33" Data="F1 M 66.726,466.428 L 40.226,466.428"/>
+
+            </Canvas>
+
+            <Canvas>
+
+                <!-- Layer 1/<Group>/<Rectangle> -->
+                <Path Fill="#ffbb7f33" Data="F1 M 62.581,556.119 L 44.371,556.119 C 41.430,556.119 39.024,553.713 39.024,550.772 L 39.024,529.228 C 39.024,526.287 41.430,523.881 44.371,523.881 L 62.581,523.881 C 65.522,523.881 67.928,526.287 67.928,529.228 L 67.928,550.772 C 67.928,553.713 65.522,556.119 62.581,556.119 Z"/>
+
+                <!-- Layer 1/<Group>/<Path> -->
+                <Path Fill="#ffbb7f33" Data="F1 M 39.024,532.055 L 39.024,529.143 C 39.024,526.237 41.380,523.881 44.286,523.881 L 62.666,523.881 C 65.572,523.881 67.928,526.237 67.928,529.143 L 67.928,532.055"/>
+
+                <!-- Layer 1/<Group>/<Line> -->
+                <Path StrokeThickness="1.0" Stroke="#ff000000" StrokeMiterLimit="1.0" Data="F1 M 48.398,536.839 L 65.935,536.839"/>
+
+                <!-- Layer 1/<Group>/<Line> -->
+                <Path StrokeThickness="1.0" Stroke="#ff000000" StrokeMiterLimit="1.0" Data="F1 M 48.398,543.175 L 65.935,543.175"/>
+
+                <!-- Layer 1/<Group>/<Line> -->
+                <Path StrokeThickness="1.0" Stroke="#ff000000" StrokeMiterLimit="1.0" Data="F1 M 48.398,549.511 L 65.935,549.511"/>
+
+                <!-- Layer 1/<Group>/<Path> -->
+                <Path StrokeThickness="3.0" Stroke="#fffaaf3a" StrokeMiterLimit="1.0" Fill="#ffbb7f33" Data="F1 M 67.928,531.184 L 39.024,531.184"/>
+
+                <!-- Layer 1/<Group>/<Rectangle> -->
+                <Path StrokeThickness="0.5" Stroke="#ff000000" StrokeMiterLimit="1.0" Data="F1 M 44.717,538.292 L 41.812,538.292 L 41.812,535.386 L 44.717,535.386 L 44.717,538.292 Z"/>
+
+                <Canvas>
+
+                    <!-- Layer 1/<Group>/<Group>/<Line> -->
+                    <Path StrokeThickness="0.5" Stroke="#ff38b449" StrokeMiterLimit="1.0" Data="F1 M 42.207,537.193 L 42.991,538.004"/>
+
+                    <!-- Layer 1/<Group>/<Group>/<Line> -->
+                    <Path StrokeThickness="0.5" Stroke="#ff38b449" StrokeMiterLimit="1.0" Data="F1 M 44.322,535.675 L 42.991,538.004"/>
+
+                </Canvas>
+
+                <!-- Layer 1/<Group>/<Rectangle> -->
+                <Path StrokeThickness="0.5" Stroke="#ff000000" StrokeMiterLimit="1.0" Data="F1 M 44.717,544.628 L 41.812,544.628 L 41.812,541.722 L 44.717,541.722 L 44.717,544.628 Z"/>
+
+                <Canvas>
+
+                    <!-- Layer 1/<Group>/<Group>/<Line> -->
+                    <Path StrokeThickness="0.5" Stroke="#ff38b449" StrokeMiterLimit="1.0" Data="F1 M 42.207,543.529 L 42.991,544.340"/>
+
+                    <!-- Layer 1/<Group>/<Group>/<Line> -->
+                    <Path StrokeThickness="0.5" Stroke="#ff38b449" StrokeMiterLimit="1.0" Data="F1 M 44.322,542.011 L 42.991,544.340"/>
+
+                </Canvas>
+
+                <!-- Layer 1/<Group>/<Rectangle> -->
+                <Path StrokeThickness="0.5" Stroke="#ff000000" StrokeMiterLimit="1.0" Data="F1 M 44.717,550.964 L 41.812,550.964 L 41.812,548.058 L 44.717,548.058 L 44.717,550.964 Z"/>
+
+            </Canvas>
+
+            <Canvas>
+
+                <!-- Layer 1/<Group>/<Line> -->
+                <Path StrokeThickness="5.0" Stroke="#ffbb7f33" StrokeMiterLimit="1.0" Data="F1 M 368.554,82.000 L 409.554,82.000"/>
+
+                <!-- Layer 1/<Group>/<Line> -->
+                <Path StrokeThickness="5.0" Stroke="#ffbb7f33" StrokeMiterLimit="1.0" Data="F1 M 368.554,94.000 L 409.554,94.000"/>
+
+                <!-- Layer 1/<Group>/<Line> -->
+                <Path StrokeThickness="5.0" Stroke="#ffbb7f33" StrokeMiterLimit="1.0" Data="F1 M 368.554,106.000 L 409.554,106.000"/>
+
+            </Canvas>
+
+            <!-- Layer 1/BrAIn Client - Welcome Guide -->
+
+            <!-- Layer 1/Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis lacinia ante a ante accumsan facilisi -->
+
+            <!-- Layer 1/<Line> -->
+            <Path StrokeThickness="3.0" Stroke="#ffbb7f33" StrokeMiterLimit="1.0" Data="F1 M 438.117,224.867 L 1800.048,224.867"/>
+            <Image Source="./Assets/logo.png" Height="151,385" Canvas.Left="75" Canvas.Top="37.5" Width="137,178"/>
+
+        </Canvas>
+    </Frame>
+</Page>
